@@ -1,5 +1,5 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "global-loader-playground",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,14 +10,30 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "@skbkontur/colors": "^1.0.0",
+    "@skbkontur/icons": "^1.15.2",
+    "@skbkontur/logos": "^2.9.0",
+    "@skbkontur/markdown": "^2.2.6",
+    "@skbkontur/react-error-pages": "^2.1.1",
+    "@skbkontur/react-ui": "^5.0.8",
+    "@skbkontur/react-ui-addons": "^5.1.2",
+    "@skbkontur/react-ui-validations": "^2.0.4",
+    "@skbkontur/side-menu": "^3.1.4",
+    "@skbkontur/ui-helpers": "^3.3.0",
+    "clsx": "^2.1.1",
+    "normalize.css": "^8.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1"
   },
   "devDependencies": {
+    "sass": "^1.77.8",
     "@eslint/js": "^9.19.0",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
+    "vite-plugin-svgr": "^4.2.0",
+    "vite-tsconfig-paths": "^5.0.1",
     "eslint": "^9.19.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
